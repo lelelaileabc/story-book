@@ -13,7 +13,7 @@ export const createButton = ({
     btn.addEventListener('click', onClick);
 
     const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-    btn.className = ['storybook-button', 'pt-5', 'bg-indigo-700', `storybook-button--${size}`, mode].join(' ');
+    btn.className = ['storybook-button', 'bg-sky-500', `storybook-button--${size}`, mode].join(' ');
 
     btn.style.backgroundColor = backgroundColor;
 

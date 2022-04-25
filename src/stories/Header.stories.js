@@ -1,5 +1,4 @@
 require("../styles/main.css");
-
 import { createHeader } from './Header';
 
 export default {

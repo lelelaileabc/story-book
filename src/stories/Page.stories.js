@@ -1,5 +1,4 @@
 require("../styles/main.css");
-
 import { createPage } from './Page';
 import * as HeaderStories from './Header.stories';
 
