@@ -1,4 +1,4 @@
-require("../styles/main.css");
+require("../../styles/main.css");
 
 import { createButton } from './Button';
 
@@ -13,7 +13,7 @@ export default {
         primary: { control: 'boolean' },
         size: {
             control: { type: 'select' },
-            options: ['small', 'medium', 'large'],
+            options: ['Extra Small', 'small', 'medium', 'large'],
         },
     },
 };
@@ -29,22 +29,22 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/html/writing-stories/args
 Primary.args = {
     primary: true,
-    label: 'Button',
+    label: '按钮',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-    label: 'Button',
+    label: '按钮',
 };
 
 export const Large = Template.bind({});
 Large.args = {
     size: 'large',
-    label: 'Button',
+    label: '按钮',
 };
 
 export const Small = Template.bind({});
 Small.args = {
     size: 'small',
-    label: 'Button',
+    label: '按钮',
 };

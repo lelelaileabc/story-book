@@ -1,4 +1,4 @@
-require("../styles/main.css");
+require("../../styles/main.css");
 import { createHeader } from './Header';
 
 export default {
